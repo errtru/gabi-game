@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Shadow -->
+  <ellipse cx="64" cy="124" rx="32" ry="4" fill="#00000020"/>
+  <!-- Body -->
+  <ellipse cx="64" cy="90" rx="28" ry="30" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+  <!-- Wing feathers left -->
+  <ellipse cx="30" cy="84" rx="16" ry="26" fill="#795548" stroke="#5D4037" stroke-width="1.5" transform="rotate(-15,30,84)"/>
+  <!-- Wing feathers right -->
+  <ellipse cx="98" cy="84" rx="16" ry="26" fill="#795548" stroke="#5D4037" stroke-width="1.5" transform="rotate(15,98,84)"/>
+  <!-- Feet -->
+  <path d="M 46 118 L 38 128 M 52 120 L 52 128 M 58 118 L 66 128" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 82 118 L 74 128 M 76 120 L 76 128 M 70 118 L 62 128" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+  <!-- Head (big round) -->
+  <ellipse cx="64" cy="44" rx="38" ry="36" fill="#8D6E63" stroke="#5D4037" stroke-width="2"/>
+  <!-- Ear tufts -->
+  <polygon points="32,18 24,4 44,14" fill="#5D4037"/>
+  <polygon points="96,18 104,4 84,14" fill="#5D4037"/>
+  <!-- Facial disc -->
+  <ellipse cx="64" cy="48" rx="30" ry="28" fill="#D7CCC8"/>
+  <!-- Heart-shaped pattern -->
+  <ellipse cx="46" cy="42" rx="14" ry="16" fill="#BCAAA4"/>
+  <ellipse cx="82" cy="42" rx="14" ry="16" fill="#BCAAA4"/>
+  <!-- HUGE eyes (owl feature!) -->
+  <circle cx="46" cy="42" r="13" fill="#FFF9C4" stroke="#5D4037" stroke-width="2"/>
+  <circle cx="47" cy="42" r="9" fill="#FF8F00"/>
+  <circle cx="48" cy="42" r="6" fill="#1a1a1a"/>
+  <circle cx="50" cy="40" r="2.5" fill="white"/>
+  <circle cx="82" cy="42" r="13" fill="#FFF9C4" stroke="#5D4037" stroke-width="2"/>
+  <circle cx="83" cy="42" r="9" fill="#FF8F00"/>
+  <circle cx="84" cy="42" r="6" fill="#1a1a1a"/>
+  <circle cx="86" cy="40" r="2.5" fill="white"/>
+  <!-- Beak (hooked) -->
+  <path d="M 58 56 Q 64 64 70 56" stroke="#FF8F00" stroke-width="4" fill="#FF8F00" stroke-linecap="round"/>
+</svg>

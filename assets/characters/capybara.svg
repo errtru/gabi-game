@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Shadow -->
+  <ellipse cx="64" cy="122" rx="44" ry="6" fill="#00000022"/>
+  <!-- Body -->
+  <rect x="14" y="68" width="100" height="46" rx="22" fill="#8B5E3C"/>
+  <!-- Head -->
+  <rect x="22" y="32" width="84" height="52" rx="20" fill="#8B5E3C"/>
+  <!-- Muzzle (key capybara feature - big square snout) -->
+  <rect x="30" y="54" width="68" height="34" rx="12" fill="#A0724A"/>
+  <!-- Left ear -->
+  <ellipse cx="30" cy="32" rx="11" ry="9" fill="#8B5E3C" stroke="#5C3A1E" stroke-width="1.5"/>
+  <ellipse cx="30" cy="32" rx="6" ry="5" fill="#C4956A"/>
+  <!-- Right ear -->
+  <ellipse cx="98" cy="32" rx="11" ry="9" fill="#8B5E3C" stroke="#5C3A1E" stroke-width="1.5"/>
+  <ellipse cx="98" cy="32" rx="6" ry="5" fill="#C4956A"/>
+  <!-- Left eye -->
+  <circle cx="42" cy="46" r="9" fill="white" stroke="#5C3A1E" stroke-width="1.5"/>
+  <circle cx="44" cy="46" r="5.5" fill="#1a0f00"/>
+  <circle cx="46" cy="44" r="2" fill="white"/>
+  <!-- Right eye -->
+  <circle cx="86" cy="46" r="9" fill="white" stroke="#5C3A1E" stroke-width="1.5"/>
+  <circle cx="88" cy="46" r="5.5" fill="#1a0f00"/>
+  <circle cx="90" cy="44" r="2" fill="white"/>
+  <!-- Nostrils -->
+  <ellipse cx="52" cy="71" rx="5" ry="4" fill="#5C3A1E"/>
+  <ellipse cx="76" cy="71" rx="5" ry="4" fill="#5C3A1E"/>
+  <!-- Smile -->
+  <path d="M 46 80 Q 64 90 82 80" stroke="#5C3A1E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Belly lighter area -->
+  <ellipse cx="64" cy="98" rx="38" ry="14" fill="#C4956A"/>
+  <!-- Legs -->
+  <rect x="20" y="102" width="20" height="22" rx="10" fill="#7A5230"/>
+  <rect x="46" y="108" width="18" height="18" rx="9" fill="#7A5230"/>
+  <rect x="64" y="108" width="18" height="18" rx="9" fill="#7A5230"/>
+  <rect x="88" y="102" width="20" height="22" rx="10" fill="#7A5230"/>
+  <!-- Tiny tail -->
+  <circle cx="114" cy="88" r="5" fill="#7A5230"/>
+</svg>

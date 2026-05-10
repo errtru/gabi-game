@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Tentacles background -->
+  <ellipse cx="40" cy="110" rx="8" ry="18" fill="#7B1FA2" transform="rotate(-15,40,110)"/>
+  <ellipse cx="56" cy="114" rx="8" ry="18" fill="#7B1FA2"/>
+  <ellipse cx="72" cy="114" rx="8" ry="18" fill="#7B1FA2"/>
+  <ellipse cx="88" cy="110" rx="8" ry="18" fill="#7B1FA2" transform="rotate(15,88,110)"/>
+  <!-- Body (mantle) -->
+  <ellipse cx="64" cy="72" rx="38" ry="46" fill="#9C27B0" stroke="#6A1B9A" stroke-width="2"/>
+  <!-- Belly -->
+  <ellipse cx="64" cy="72" rx="26" ry="32" fill="#CE93D8"/>
+  <!-- Fin left -->
+  <ellipse cx="26" cy="60" rx="12" ry="22" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1.5" transform="rotate(-20,26,60)"/>
+  <!-- Fin right -->
+  <ellipse cx="102" cy="60" rx="12" ry="22" fill="#9C27B0" stroke="#6A1B9A" stroke-width="1.5" transform="rotate(20,102,60)"/>
+  <!-- Eyes -->
+  <ellipse cx="46" cy="50" rx="12" ry="10" fill="white" stroke="#6A1B9A" stroke-width="1.5"/>
+  <circle cx="47" cy="50" r="6" fill="#1a1a1a"/>
+  <circle cx="49" cy="48" r="2" fill="white"/>
+  <ellipse cx="82" cy="50" rx="12" ry="10" fill="white" stroke="#6A1B9A" stroke-width="1.5"/>
+  <circle cx="83" cy="50" r="6" fill="#1a1a1a"/>
+  <circle cx="85" cy="48" r="2" fill="white"/>
+  <!-- Mouth -->
+  <path d="M 50 66 Q 64 74 78 66" stroke="#6A1B9A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Suction cups on tentacles -->
+  <circle cx="40" cy="100" r="3" fill="#CE93D8"/>
+  <circle cx="56" cy="104" r="3" fill="#CE93D8"/>
+  <circle cx="72" cy="104" r="3" fill="#CE93D8"/>
+  <circle cx="88" cy="100" r="3" fill="#CE93D8"/>
+</svg>

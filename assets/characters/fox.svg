@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Shadow -->
+  <ellipse cx="64" cy="124" rx="34" ry="4" fill="#00000020"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="88" rx="38" ry="28" fill="#E65100" stroke="#BF360C" stroke-width="2"/>
+  <!-- White chest -->
+  <ellipse cx="58" cy="92" rx="20" ry="16" fill="#FFF9C4"/>
+  <!-- Fluffy tail -->
+  <ellipse cx="98" cy="80" rx="20" ry="28" fill="#E65100" stroke="#BF360C" stroke-width="2" transform="rotate(20,98,80)"/>
+  <ellipse cx="98" cy="80" rx="14" ry="20" fill="#F57F17" transform="rotate(20,98,80)"/>
+  <!-- Legs -->
+  <rect x="24" y="106" width="16" height="22" rx="8" fill="#D84315"/>
+  <rect x="46" y="110" width="14" height="18" rx="7" fill="#D84315"/>
+  <rect x="68" y="110" width="14" height="18" rx="7" fill="#D84315"/>
+  <rect x="88" y="106" width="16" height="22" rx="8" fill="#D84315"/>
+  <!-- Head -->
+  <ellipse cx="56" cy="44" rx="34" ry="30" fill="#E65100" stroke="#BF360C" stroke-width="2"/>
+  <!-- Left ear (pointy) -->
+  <polygon points="28,22 20,2 42,18" fill="#E65100" stroke="#BF360C" stroke-width="2"/>
+  <polygon points="30,20 24,8 38,17" fill="#FFAB91"/>
+  <!-- Right ear -->
+  <polygon points="84,22 92,2 70,18" fill="#E65100" stroke="#BF360C" stroke-width="2"/>
+  <polygon points="82,20 88,8 74,17" fill="#FFAB91"/>
+  <!-- White muzzle -->
+  <ellipse cx="56" cy="56" rx="22" ry="14" fill="#FFF9C4"/>
+  <!-- Nose -->
+  <ellipse cx="56" cy="50" rx="6" ry="4" fill="#4E342E"/>
+  <!-- Whiskers -->
+  <line x1="34" y1="54" x2="10" y2="50" stroke="#555" stroke-width="1.5"/>
+  <line x1="34" y1="58" x2="10" y2="58" stroke="#555" stroke-width="1.5"/>
+  <line x1="78" y1="54" x2="102" y2="50" stroke="#555" stroke-width="1.5"/>
+  <line x1="78" y1="58" x2="102" y2="58" stroke="#555" stroke-width="1.5"/>
+  <!-- Left eye -->
+  <circle cx="40" cy="38" r="9" fill="#FFD600" stroke="#BF360C" stroke-width="1.5"/>
+  <circle cx="41" cy="38" r="5.5" fill="#1a1a1a"/>
+  <circle cx="43" cy="36" r="2" fill="white"/>
+  <!-- Right eye -->
+  <circle cx="72" cy="38" r="9" fill="#FFD600" stroke="#BF360C" stroke-width="1.5"/>
+  <circle cx="73" cy="38" r="5.5" fill="#1a1a1a"/>
+  <circle cx="75" cy="36" r="2" fill="white"/>
+  <!-- Cunning smile -->
+  <path d="M 42 62 Q 56 70 70 62" stroke="#BF360C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

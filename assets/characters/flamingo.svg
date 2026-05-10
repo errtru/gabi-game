@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Shadow -->
+  <ellipse cx="64" cy="124" rx="20" ry="4" fill="#00000020"/>
+  <!-- Long leg -->
+  <rect x="60" y="80" width="8" height="48" rx="4" fill="#F06292" stroke="#AD1457" stroke-width="1.5"/>
+  <!-- Knee bend/second segment -->
+  <path d="M 64 112 Q 80 118 76 128" stroke="#F06292" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="64" cy="72" rx="20" ry="28" fill="#F48FB1" stroke="#AD1457" stroke-width="2"/>
+  <!-- Wing -->
+  <ellipse cx="42" cy="68" rx="14" ry="20" fill="#F8BBD9" stroke="#AD1457" stroke-width="1.5" transform="rotate(-15,42,68)"/>
+  <ellipse cx="86" cy="68" rx="14" ry="20" fill="#F8BBD9" stroke="#AD1457" stroke-width="1.5" transform="rotate(15,86,68)"/>
+  <!-- Neck (long and curved) -->
+  <path d="M 64 50 Q 42 36 50 18" stroke="#F48FB1" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M 64 50 Q 42 36 50 18" stroke="#AD1457" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 64 50 Q 42 36 50 18" stroke="#F48FB1" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Head -->
+  <ellipse cx="52" cy="14" rx="16" ry="12" fill="#F48FB1" stroke="#AD1457" stroke-width="2"/>
+  <!-- Beak (curved downward) -->
+  <path d="M 36 12 Q 30 18 36 22" stroke="#E65100" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Black beak tip -->
+  <circle cx="36" cy="22" r="3" fill="#1a1a1a"/>
+  <!-- Eye -->
+  <circle cx="60" cy="10" r="7" fill="white" stroke="#AD1457" stroke-width="1.5"/>
+  <circle cx="61" cy="10" r="4" fill="#1a1a1a"/>
+  <circle cx="62" cy="8" r="1.5" fill="white"/>
+  <!-- Black wing tip -->
+  <ellipse cx="42" cy="84" rx="10" ry="6" fill="#E91E63" transform="rotate(-10,42,84)"/>
+</svg>

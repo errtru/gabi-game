@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 720" width="3840" height="720">
+  <defs>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8E7"/>
+      <stop offset="100%" stop-color="#F3E5D0"/>
+    </linearGradient>
+    <linearGradient id="floorG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A1784A"/>
+      <stop offset="100%" stop-color="#8B6332"/>
+    </linearGradient>
+    <pattern id="floorPattern" x="0" y="0" width="120" height="60" patternUnits="userSpaceOnUse">
+      <rect width="120" height="60" fill="#A1784A"/>
+      <rect x="2" y="2" width="116" height="56" fill="#C4995E" rx="3"/>
+      <rect x="4" y="4" width="112" height="52" fill="#B08040"/>
+    </pattern>
+    <pattern id="wallPattern" x="0" y="0" width="160" height="80" patternUnits="userSpaceOnUse">
+      <rect width="160" height="80" fill="#F3E5D0"/>
+      <rect x="2" y="2" width="156" height="36" fill="#FFF8E7" rx="2" opacity="0.6"/>
+      <rect x="2" y="42" width="156" height="36" fill="#FFF8E7" rx="2" opacity="0.6"/>
+    </pattern>
+  </defs>
+  
+  <!-- Ceiling -->
+  <rect width="3840" height="100" fill="#FFF9F0"/>
+  
+  <!-- Wall -->
+  <rect y="100" width="3840" height="480" fill="url(#wallPattern)"/>
+  
+  <!-- Floor -->
+  <rect y="580" width="3840" height="140" fill="url(#floorPattern)"/>
+  <!-- Floor shadow -->
+  <rect y="575" width="3840" height="16" fill="#7A5230" opacity="0.4"/>
+  
+  <!-- Baseboard -->
+  <rect y="568" width="3840" height="18" fill="#8B6332"/>
+  
+  <!-- Large sofa (left section) -->
+  <g transform="translate(60,400)">
+    <rect x="0" y="40" width="320" height="130" rx="20" fill="#5C6BC0"/>
+    <rect x="10" y="0" width="300" height="100" rx="16" fill="#7986CB"/>
+    <rect x="0" y="40" width="50" height="130" rx="16" fill="#7986CB"/>
+    <rect x="270" y="40" width="50" height="130" rx="16" fill="#7986CB"/>
+    <!-- Cushions -->
+    <ellipse cx="100" cy="45" rx="60" ry="20" fill="#9FA8DA"/>
+    <ellipse cx="220" cy="45" rx="60" ry="20" fill="#9FA8DA"/>
+    <!-- Pillows -->
+    <rect x="20" y="15" width="60" height="70" rx="12" fill="#FF8A80"/>
+    <rect x="240" y="15" width="60" height="70" rx="12" fill="#FFD180"/>
+  </g>
+  
+  <!-- Sofa right section (continues) -->
+  <g transform="translate(800,400)">
+    <rect x="0" y="40" width="280" height="130" rx="20" fill="#EF5350"/>
+    <rect x="10" y="0" width="260" height="95" rx="16" fill="#EF9A9A"/>
+    <rect x="0" y="40" width="46" height="130" rx="16" fill="#EF9A9A"/>
+    <rect x="234" y="40" width="46" height="130" rx="16" fill="#EF9A9A"/>
+    <ellipse cx="90" cy="42" rx="55" ry="18" fill="#FFCDD2"/>
+    <ellipse cx="200" cy="42" rx="55" ry="18" fill="#FFCDD2"/>
+    <rect x="18" y="12" width="55" height="65" rx="12" fill="#4DD0E1"/>
+    <rect x="208" y="12" width="55" height="65" rx="12" fill="#A5D6A7"/>
+  </g>
+  
+  <!-- Coffee table -->
+  <g transform="translate(420,490)">
+    <rect x="0" y="0" width="280" height="16" rx="8" fill="#8B5E3C"/>
+    <rect x="20" y="10" width="12" height="70" rx="6" fill="#6D4C41"/>
+    <rect x="248" y="10" width="12" height="70" rx="6" fill="#6D4C41"/>
+    <rect x="100" y="10" width="12" height="70" rx="6" fill="#6D4C41"/>
+    <rect x="168" y="10" width="12" height="70" rx="6" fill="#6D4C41"/>
+    <!-- Items on table -->
+    <circle cx="80" cy="-10" r="22" fill="#A5D6A7" stroke="#66BB6A" stroke-width="2"/>
+    <circle cx="80" cy="-10" r="14" fill="white"/>
+    <circle cx="80" cy="-10" r="8" fill="#A5D6A7"/>
+    <rect x="140" y="-28" width="50" height="28" rx="4" fill="#FFF9C4" stroke="#FDD835" stroke-width="2"/>
+    <line x1="165" y1="-26" x2="165" y2="-2" stroke="#FDD835" stroke-width="1.5"/>
+    <line x1="141" y1="-14" x2="189" y2="-14" stroke="#FDD835" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Bookshelf (1st) -->
+  <g transform="translate(1200,150)">
+    <rect x="0" y="0" width="200" height="400" rx="8" fill="#8B6332"/>
+    <!-- Shelves -->
+    <rect x="8" y="60" width="184" height="10" rx="4" fill="#6D4C41"/>
+    <rect x="8" y="160" width="184" height="10" rx="4" fill="#6D4C41"/>
+    <rect x="8" y="260" width="184" height="10" rx="4" fill="#6D4C41"/>
+    <rect x="8" y="360" width="184" height="10" rx="4" fill="#6D4C41"/>
+    <!-- Books row 1 -->
+    <rect x="14" y="14" width="24" height="46" rx="3" fill="#E53935"/>
+    <rect x="40" y="18" width="20" height="42" rx="3" fill="#1E88E5"/>
+    <rect x="62" y="12" width="28" height="48" rx="3" fill="#43A047"/>
+    <rect x="92" y="16" width="22" height="44" rx="3" fill="#FB8C00"/>
+    <rect x="116" y="10" width="26" height="50" rx="3" fill="#8E24AA"/>
+    <rect x="144" y="14" width="20" height="46" rx="3" fill="#00ACC1"/>
+    <rect x="166" y="18" width="18" height="42" rx="3" fill="#F4511E"/>
+    <!-- Books row 2 -->
+    <rect x="14" y="114" width="22" height="46" rx="3" fill="#FFB300"/>
+    <rect x="38" y="116" width="28" height="44" rx="3" fill="#7CB342"/>
+    <rect x="68" y="112" width="20" height="48" rx="3" fill="#D81B60"/>
+    <rect x="90" y="118" width="24" height="42" rx="3" fill="#039BE5"/>
+    <rect x="116" y="114" width="26" height="46" rx="3" fill="#6D4C41"/>
+    <rect x="144" y="116" width="20" height="44" rx="3" fill="#558B2F"/>
+    <rect x="166" y="112" width="18" height="48" rx="3" fill="#E64A19"/>
+    <!-- Books row 3 -->
+    <rect x="14" y="214" width="24" height="46" rx="3" fill="#00695C"/>
+    <rect x="40" y="218" width="20" height="42" rx="3" fill="#C62828"/>
+    <rect x="62" y="212" width="28" height="48" rx="3" fill="#4527A0"/>
+    <rect x="92" y="216" width="22" height="44" rx="3" fill="#2E7D32"/>
+    <rect x="116" y="210" width="26" height="50" rx="3" fill="#F57F17"/>
+    <rect x="144" y="214" width="20" height="46" rx="3" fill="#1565C0"/>
+    <!-- Decorative items row 4 -->
+    <circle cx="40" cy="330" r="26" fill="#FFCA28"/>
+    <circle cx="40" cy="330" r="18" fill="#FF8F00"/>
+    <circle cx="40" cy="330" r="10" fill="#FFCA28"/>
+    <rect x="90" y="310" width="36" height="50" rx="6" fill="#80DEEA"/>
+    <circle cx="155" cy="330" r="28" fill="#EF5350"/>
+    <circle cx="155" cy="330" r="16" fill="#FFCDD2"/>
+  </g>
+
+  <!-- Window 1 -->
+  <g transform="translate(1600,140)">
+    <rect x="0" y="0" width="240" height="300" rx="8" fill="#87CEEB" stroke="#8B6332" stroke-width="12"/>
+    <!-- Window panes -->
+    <line x1="120" y1="0" x2="120" y2="300" stroke="#8B6332" stroke-width="8"/>
+    <line x1="0" y1="150" x2="240" y2="150" stroke="#8B6332" stroke-width="8"/>
+    <!-- Curtains -->
+    <path d="M0 0 Q40 60 20 300" fill="#FF8A80" opacity="0.8"/>
+    <path d="M240 0 Q200 60 220 300" fill="#FF8A80" opacity="0.8"/>
+    <!-- Outside view: garden -->
+    <rect x="12" y="156" width="108" height="138" fill="#81C784"/>
+    <rect x="124" y="156" width="104" height="138" fill="#81C784"/>
+    <circle cx="60" cy="160" r="40" fill="#388E3C"/>
+    <rect x="52" y="200" width="16" height="94" fill="#5D4037"/>
+    <circle cx="184" cy="168" r="36" fill="#43A047"/>
+    <rect x="177" y="204" width="14" height="90" fill="#5D4037"/>
+    <!-- Sun in window -->
+    <circle cx="120" cy="60" r="30" fill="#FFD600" opacity="0.7"/>
+    <!-- Windowsill -->
+    <rect x="-10" y="294" width="260" height="20" rx="4" fill="#8B6332"/>
+    <!-- Plant on windowsill -->
+    <circle cx="50" cy="285" r="22" fill="#66BB6A"/>
+    <rect x="42" y="303" width="16" height="12" rx="4" fill="#8D6E63"/>
+    <circle cx="190" cy="285" r="20" fill="#A5D6A7"/>
+    <rect x="182" y="303" width="16" height="12" rx="4" fill="#4CAF50"/>
+  </g>
+  
+  <!-- TV on wall -->
+  <g transform="translate(2100,180)">
+    <rect x="0" y="0" width="360" height="220" rx="12" fill="#212121"/>
+    <rect x="12" y="12" width="336" height="196" rx="8" fill="#1565C0"/>
+    <!-- TV content: colorful show -->
+    <rect x="12" y="12" width="168" height="196" fill="#E8F5E9" rx="4"/>
+    <rect x="180" y="12" width="168" height="196" fill="#FFF8E1" rx="4"/>
+    <!-- Simple show art -->
+    <circle cx="96" cy="80" r="50" fill="#FFCA28"/>
+    <circle cx="264" cy="60" r="40" fill="#FF8A80"/>
+    <rect x="40" y="140" width="112" height="60" rx="8" fill="#A5D6A7"/>
+    <circle cx="264" cy="140" r="50" fill="#81D4FA"/>
+    <!-- TV stand -->
+    <rect x="150" y="220" width="60" height="12" rx="6" fill="#424242"/>
+    <rect x="130" y="230" width="100" height="10" rx="5" fill="#424242"/>
+  </g>
+  
+  <!-- Bookshelf 2 -->
+  <g transform="translate(2700,150)">
+    <rect x="0" y="0" width="180" height="400" rx="8" fill="#795548"/>
+    <rect x="8" y="55" width="164" height="10" rx="4" fill="#5D4037"/>
+    <rect x="8" y="155" width="164" height="10" rx="4" fill="#5D4037"/>
+    <rect x="8" y="255" width="164" height="10" rx="4" fill="#5D4037"/>
+    <rect x="8" y="355" width="164" height="10" rx="4" fill="#5D4037"/>
+    <!-- Toys on shelves instead of books -->
+    <circle cx="40" cy="32" r="22" fill="#FF5252"/>
+    <circle cx="80" cy="28" r="26" fill="#FFEB3B"/>
+    <circle cx="122" cy="30" r="20" fill="#42A5F5"/>
+    <circle cx="154" cy="32" r="18" fill="#66BB6A"/>
+    <!-- Stuffed animals row 2 -->
+    <ellipse cx="44" cy="115" rx="28" ry="32" fill="#FFCA28"/>
+    <circle cx="44" cy="90" r="20" fill="#FFD54F"/>
+    <ellipse cx="110" cy="118" rx="26" ry="30" fill="#EF9A9A"/>
+    <circle cx="110" cy="96" r="18" fill="#FFCDD2"/>
+    <ellipse cx="162" cy="115" rx="20" ry="28" fill="#CE93D8"/>
+    <circle cx="162" cy="94" r="16" fill="#E1BEE7"/>
+    <!-- Frame/photo row 3 -->
+    <rect x="16" y="218" width="60" height="50" rx="4" fill="#FF8F00"/>
+    <rect x="22" y="224" width="48" height="38" fill="#FFF9C4"/>
+    <circle cx="46" cy="243" r="14" fill="#FFCC80"/>
+    <rect x="92" y="215" width="70" height="56" rx="4" fill="#5C6BC0"/>
+    <rect x="98" y="221" width="58" height="44" fill="#E8EAF6"/>
+    <circle cx="127" cy="243" r="16" fill="#9FA8DA"/>
+  </g>
+  
+  <!-- Window 2 -->
+  <g transform="translate(3100,150)">
+    <rect x="0" y="0" width="200" height="280" rx="8" fill="#87CEEB" stroke="#795548" stroke-width="12"/>
+    <line x1="100" y1="0" x2="100" y2="280" stroke="#795548" stroke-width="8"/>
+    <line x1="0" y1="140" x2="200" y2="140" stroke="#795548" stroke-width="8"/>
+    <path d="M0 0 Q34 56 16 280" fill="#4DD0E1" opacity="0.5"/>
+    <path d="M200 0 Q166 56 184 280" fill="#4DD0E1" opacity="0.5"/>
+    <rect x="12" y="146" width="86" height="128" fill="#A5D6A7"/>
+    <rect x="102" y="146" width="86" height="128" fill="#A5D6A7"/>
+    <circle cx="50" cy="140" r="48" fill="#FFEE58" opacity="0.8"/>
+    <rect x="184" y="274" width="216" height="16" rx="4" fill="#795548"/>
+  </g>
+  
+  <!-- Plant decorations -->
+  <g transform="translate(450,350)">
+    <circle cx="0" cy="0" r="50" fill="#4CAF50"/>
+    <circle cx="-20" cy="-20" r="36" fill="#66BB6A"/>
+    <circle cx="24" cy="-16" r="32" fill="#81C784"/>
+    <rect x="-18" y="40" width="36" height="50" rx="12" fill="#8D6E63"/>
+  </g>
+  
+  <g transform="translate(3640,360)">
+    <circle cx="0" cy="0" r="48" fill="#388E3C"/>
+    <circle cx="-18" cy="-22" r="34" fill="#4CAF50"/>
+    <circle cx="22" cy="-18" r="30" fill="#66BB6A"/>
+    <rect x="-16" y="38" width="32" height="48" rx="10" fill="#6D4C41"/>
+  </g>
+  
+  <!-- Rug on floor -->
+  <ellipse cx="700" cy="620" rx="300" ry="60" fill="#EF5350" opacity="0.8"/>
+  <ellipse cx="700" cy="620" rx="240" ry="48" fill="#FF8A80" opacity="0.8"/>
+  <ellipse cx="700" cy="620" rx="180" ry="36" fill="#FFCDD2" opacity="0.8"/>
+  
+  <ellipse cx="2400" cy="628" rx="280" ry="56" fill="#5C6BC0" opacity="0.8"/>
+  <ellipse cx="2400" cy="628" rx="220" ry="44" fill="#7986CB" opacity="0.8"/>
+  <ellipse cx="2400" cy="628" rx="160" ry="32" fill="#C5CAE9" opacity="0.8"/>
+</svg>

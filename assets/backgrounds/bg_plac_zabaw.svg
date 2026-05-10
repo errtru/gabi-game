@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 720" width="3840" height="720">
+  <defs>
+    <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="60%" stop-color="#B0E0FF"/>
+      <stop offset="100%" stop-color="#C8F0A0"/>
+    </linearGradient>
+    <linearGradient id="grassG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="3840" height="720" fill="url(#skyG)"/>
+
+  <!-- Sun -->
+  <circle cx="200" cy="120" r="70" fill="#FFD600" opacity="0.9"/>
+  <circle cx="200" cy="120" r="55" fill="#FFE040"/>
+  <!-- Sun rays -->
+  <g transform="translate(200,120)" fill="none" stroke="#FFD600" stroke-width="6" opacity="0.6">
+    <line x1="0" y1="-80" x2="0" y2="-100"/>
+    <line x1="56" y1="-56" x2="70" y2="-70"/>
+    <line x1="80" y1="0" x2="100" y2="0"/>
+    <line x1="56" y1="56" x2="70" y2="70"/>
+    <line x1="0" y1="80" x2="0" y2="100"/>
+    <line x1="-56" y1="56" x2="-70" y2="70"/>
+    <line x1="-80" y1="0" x2="-100" y2="0"/>
+    <line x1="-56" y1="-56" x2="-70" y2="-70"/>
+  </g>
+
+  <!-- Clouds -->
+  <g opacity="0.9">
+    <ellipse cx="600" cy="80" rx="90" ry="40" fill="white"/>
+    <ellipse cx="560" cy="88" rx="60" ry="36" fill="white"/>
+    <ellipse cx="650" cy="90" rx="70" ry="32" fill="white"/>
+  </g>
+  <g opacity="0.9">
+    <ellipse cx="1400" cy="60" rx="100" ry="38" fill="white"/>
+    <ellipse cx="1350" cy="70" rx="70" ry="34" fill="white"/>
+    <ellipse cx="1460" cy="72" rx="80" ry="30" fill="white"/>
+  </g>
+  <g opacity="0.9">
+    <ellipse cx="2200" cy="90" rx="85" ry="36" fill="white"/>
+    <ellipse cx="2150" cy="98" rx="60" ry="32" fill="white"/>
+    <ellipse cx="2270" cy="100" rx="70" ry="28" fill="white"/>
+  </g>
+  <g opacity="0.9">
+    <ellipse cx="3100" cy="70" rx="95" ry="40" fill="white"/>
+    <ellipse cx="3050" cy="80" rx="65" ry="36" fill="white"/>
+    <ellipse cx="3170" cy="82" rx="75" ry="32" fill="white"/>
+  </g>
+
+  <!-- Distant trees / bushes horizon -->
+  <g fill="#2E7D32">
+    <ellipse cx="350" cy="440" rx="60" ry="70" />
+    <ellipse cx="380" cy="420" rx="55" ry="65" />
+    <ellipse cx="320" cy="430" rx="48" ry="60" />
+    <rect x="355" y="480" width="20" height="80" fill="#5D4037"/>
+
+    <ellipse cx="900" cy="435" rx="55" ry="65" />
+    <ellipse cx="935" cy="415" rx="60" ry="70" />
+    <rect x="910" y="478" width="20" height="82" fill="#5D4037"/>
+
+    <ellipse cx="1700" cy="440" rx="58" ry="68"/>
+    <ellipse cx="1740" cy="420" rx="52" ry="62"/>
+    <rect x="1713" y="480" width="20" height="80" fill="#5D4037"/>
+
+    <ellipse cx="2500" cy="438" rx="60" ry="66"/>
+    <ellipse cx="2535" cy="418" rx="54" ry="62"/>
+    <rect x="2510" y="478" width="20" height="82" fill="#5D4037"/>
+
+    <ellipse cx="3300" cy="434" rx="56" ry="68"/>
+    <ellipse cx="3340" cy="415" rx="60" ry="72"/>
+    <rect x="3315" y="478" width="20" height="82" fill="#5D4037"/>
+  </g>
+
+  <!-- Grass ground -->
+  <rect y="500" width="3840" height="220" fill="url(#grassG)"/>
+  <!-- Grass top texture -->
+  <path d="M0 500 Q40 480 80 500 Q120 480 160 500 Q200 480 240 500 Q400 478 480 500 Q600 478 680 500 Q800 478 900 500 Q1200 478 1400 500 Q1600 478 1800 500 Q2000 478 2200 500 Q2400 478 2600 500 Q2800 478 3000 500 Q3200 478 3400 500 Q3600 478 3800 500 L3840 500 L3840 520 L0 520 Z" fill="#43A047"/>
+  
+  <!-- Flowers scattered on grass -->
+  <g>
+    <!-- Red flowers -->
+    <circle cx="120" cy="510" r="10" fill="#E53935"/>
+    <circle cx="120" cy="510" r="5" fill="#FFD600"/>
+    <circle cx="400" cy="518" r="10" fill="#E53935"/>
+    <circle cx="400" cy="518" r="5" fill="#FFD600"/>
+    <circle cx="700" cy="512" r="10" fill="#EC407A"/>
+    <circle cx="700" cy="512" r="5" fill="#FFFF00"/>
+    <circle cx="1100" cy="516" r="10" fill="#FF7043"/>
+    <circle cx="1100" cy="516" r="5" fill="#FFD600"/>
+    <circle cx="1500" cy="510" r="10" fill="#AB47BC"/>
+    <circle cx="1500" cy="510" r="5" fill="#FFFF00"/>
+    <circle cx="1900" cy="514" r="10" fill="#E53935"/>
+    <circle cx="1900" cy="514" r="5" fill="#FFD600"/>
+    <circle cx="2300" cy="510" r="10" fill="#EC407A"/>
+    <circle cx="2300" cy="510" r="5" fill="#FFFF00"/>
+    <circle cx="2700" cy="516" r="10" fill="#FF7043"/>
+    <circle cx="2700" cy="516" r="5" fill="#FFD600"/>
+    <circle cx="3100" cy="512" r="10" fill="#AB47BC"/>
+    <circle cx="3100" cy="512" r="5" fill="#FFFF00"/>
+    <circle cx="3500" cy="514" r="10" fill="#E53935"/>
+    <circle cx="3500" cy="514" r="5" fill="#FFD600"/>
+    <!-- Extra flowers -->
+    <circle cx="260" cy="520" r="8" fill="#FFEE58"/>
+    <circle cx="260" cy="520" r="4" fill="#E53935"/>
+    <circle cx="580" cy="518" r="8" fill="#80DEEA"/>
+    <circle cx="580" cy="518" r="4" fill="#0288D1"/>
+    <circle cx="860" cy="515" r="8" fill="#FFEE58"/>
+    <circle cx="860" cy="515" r="4" fill="#FF8F00"/>
+    <circle cx="1300" cy="518" r="8" fill="#F48FB1"/>
+    <circle cx="1300" cy="518" r="4" fill="#C2185B"/>
+    <circle cx="1700" cy="516" r="8" fill="#FFEE58"/>
+    <circle cx="1700" cy="516" r="4" fill="#FF8F00"/>
+    <circle cx="2100" cy="518" r="8" fill="#CE93D8"/>
+    <circle cx="2100" cy="518" r="4" fill="#7B1FA2"/>
+    <circle cx="2500" cy="516" r="8" fill="#80DEEA"/>
+    <circle cx="2500" cy="516" r="4" fill="#0288D1"/>
+    <circle cx="2900" cy="520" r="8" fill="#F48FB1"/>
+    <circle cx="2900" cy="520" r="4" fill="#C2185B"/>
+    <circle cx="3300" cy="516" r="8" fill="#FFEE58"/>
+    <circle cx="3300" cy="516" r="4" fill="#FF8F00"/>
+    <circle cx="3700" cy="518" r="8" fill="#CE93D8"/>
+    <circle cx="3700" cy="518" r="4" fill="#7B1FA2"/>
+  </g>
+  
+  <!-- Fence -->
+  <g fill="#FAFAFA" stroke="#9E9E9E" stroke-width="2">
+    <!-- Fence rails -->
+    <rect x="0" y="510" width="3840" height="12" rx="6" fill="#F5F5F5"/>
+    <rect x="0" y="546" width="3840" height="12" rx="6" fill="#F5F5F5"/>
+    <!-- Fence posts (every 80px) -->
+  </g>
+  <g fill="#EEEEEE">
+    <rect x="10" y="495" width="18" height="80" rx="4"/>
+    <path d="M10 495 L19 480 L28 495 Z" fill="#E0E0E0"/>
+  </g>
+  <!-- Programmatically add fence posts dynamically - placing every 80px for 3840 width would be too much code, use pattern -->
+  <pattern id="fencePost" x="0" y="0" width="80" height="120" patternUnits="userSpaceOnUse">
+    <rect x="31" y="0" width="18" height="90" rx="4" fill="#EEEEEE" stroke="#9E9E9E" stroke-width="1.5"/>
+    <polygon points="31,0 40,-15 49,0" fill="#E0E0E0"/>
+  </pattern>
+  <rect y="420" width="3840" height="120" fill="url(#fencePost)"/>
+
+  <!-- Slide (left area) -->
+  <g transform="translate(180,240)">
+    <!-- Slide frame -->
+    <rect x="50" y="0" width="18" height="280" rx="9" fill="#F44336"/>
+    <rect x="200" y="0" width="18" height="280" rx="9" fill="#F44336"/>
+    <!-- Ladder rungs -->
+    <rect x="50" y="40" width="168" height="10" rx="5" fill="#EF9A9A"/>
+    <rect x="50" y="80" width="168" height="10" rx="5" fill="#EF9A9A"/>
+    <rect x="50" y="120" width="168" height="10" rx="5" fill="#EF9A9A"/>
+    <rect x="50" y="160" width="168" height="10" rx="5" fill="#EF9A9A"/>
+    <rect x="50" y="200" width="168" height="10" rx="5" fill="#EF9A9A"/>
+    <rect x="50" y="240" width="168" height="10" rx="5" fill="#EF9A9A"/>
+    <!-- Platform top -->
+    <rect x="20" y="-14" width="250" height="22" rx="10" fill="#D32F2F"/>
+    <!-- Slide ramp -->
+    <path d="M218 0 L380 280 L330 280 L168 10 Z" fill="#FF8A65"/>
+    <path d="M156 10 L316 280 L330 280 L168 10 Z" fill="#FFAB91"/>
+    <!-- Slide end curve -->
+    <path d="M316 280 Q360 310 380 280" fill="none" stroke="#FF8A65" stroke-width="14"/>
+  </g>
+
+  <!-- Swings -->
+  <g transform="translate(700,180)">
+    <!-- Top beam -->
+    <rect x="0" y="0" width="400" height="22" rx="11" fill="#1976D2"/>
+    <!-- Left support -->
+    <rect x="10" y="16" width="16" height="300" rx="8" fill="#1976D2"/>
+    <!-- Right support -->
+    <rect x="374" y="16" width="16" height="300" rx="8" fill="#1976D2"/>
+    <!-- Left diagonal supports -->
+    <line x1="10" y1="316" x2="-30" y2="510" stroke="#1976D2" stroke-width="14" stroke-linecap="round"/>
+    <line x1="26" y1="316" x2="26" y2="510" stroke="#1976D2" stroke-width="14" stroke-linecap="round"/>
+    <!-- Right diagonal supports -->
+    <line x1="390" y1="316" x2="430" y2="510" stroke="#1976D2" stroke-width="14" stroke-linecap="round"/>
+    <line x1="374" y1="316" x2="374" y2="510" stroke="#1976D2" stroke-width="14" stroke-linecap="round"/>
+    <!-- Swing 1 ropes -->
+    <line x1="100" y1="20" x2="100" y2="280" stroke="#8B6332" stroke-width="5"/>
+    <line x1="180" y1="20" x2="180" y2="280" stroke="#8B6332" stroke-width="5"/>
+    <!-- Swing 1 seat -->
+    <rect x="90" y="278" width="100" height="20" rx="10" fill="#FF8A65"/>
+    <!-- Swing 2 ropes (angled - in use) -->
+    <line x1="240" y1="20" x2="200" y2="280" stroke="#8B6332" stroke-width="5"/>
+    <line x1="300" y1="20" x2="280" y2="280" stroke="#8B6332" stroke-width="5"/>
+    <!-- Swing 2 seat -->
+    <rect x="192" y="278" width="96" height="20" rx="10" fill="#FFCA28"/>
+  </g>
+
+  <!-- Roundabout / merry-go-round -->
+  <g transform="translate(1400,430)">
+    <rect x="-6" y="-80" width="12" height="110" rx="6" fill="#757575"/>
+    <ellipse cx="0" cy="-80" rx="120" ry="30" fill="#FF5252"/>
+    <ellipse cx="0" cy="-80" rx="120" ry="24" fill="#FF8A80"/>
+    <!-- Spokes -->
+    <line x1="-120" y1="-80" x2="0" y2="-80" stroke="#D32F2F" stroke-width="6"/>
+    <line x1="120" y1="-80" x2="0" y2="-80" stroke="#D32F2F" stroke-width="6"/>
+    <line x1="0" y1="-80" x2="0" y2="-110" stroke="#D32F2F" stroke-width="6"/>
+    <line x1="0" y1="-80" x2="0" y2="-50" stroke="#D32F2F" stroke-width="6"/>
+    <line x1="-85" y1="-101" x2="85" y2="-59" stroke="#D32F2F" stroke-width="4"/>
+    <line x1="85" y1="-101" x2="-85" y2="-59" stroke="#D32F2F" stroke-width="4"/>
+    <!-- Handles -->
+    <circle cx="-110" cy="-80" r="10" fill="#B71C1C"/>
+    <circle cx="110" cy="-80" r="10" fill="#B71C1C"/>
+    <circle cx="0" cy="-104" r="10" fill="#B71C1C"/>
+    <circle cx="0" cy="-56" r="10" fill="#B71C1C"/>
+    <!-- Base -->
+    <ellipse cx="0" cy="28" rx="140" ry="30" fill="#9E9E9E" opacity="0.5"/>
+    <circle cx="0" cy="28" r="20" fill="#616161"/>
+  </g>
+
+  <!-- Sandbox -->
+  <g transform="translate(1900,430)">
+    <ellipse cx="120" cy="60" rx="180" ry="80" fill="#8D6E63"/>
+    <ellipse cx="120" cy="50" rx="160" ry="60" fill="#F9A825"/>
+    <ellipse cx="120" cy="46" rx="140" ry="50" fill="#FFD54F"/>
+    <!-- Bucket & shovel -->
+    <rect x="100" y="20" width="40" height="50" rx="8" fill="#EF5350"/>
+    <path d="M100 20 Q120 10 140 20" fill="none" stroke="#EF5350" stroke-width="6"/>
+    <rect x="170" y="10" width="10" height="60" rx="5" fill="#FFB300"/>
+    <ellipse cx="175" cy="70" rx="18" ry="10" fill="#FF8F00"/>
+  </g>
+
+  <!-- Climbing frame -->
+  <g transform="translate(2400,200)">
+    <!-- Main structure -->
+    <rect x="0" y="0" width="20" height="330" rx="10" fill="#43A047"/>
+    <rect x="200" y="0" width="20" height="330" rx="10" fill="#43A047"/>
+    <rect x="100" y="-50" width="20" height="380" rx="10" fill="#43A047"/>
+    <!-- Cross bars -->
+    <rect x="-6" y="60" width="326" height="14" rx="7" fill="#66BB6A"/>
+    <rect x="-6" y="140" width="326" height="14" rx="7" fill="#66BB6A"/>
+    <rect x="-6" y="220" width="326" height="14" rx="7" fill="#66BB6A"/>
+    <rect x="-6" y="300" width="326" height="14" rx="7" fill="#66BB6A"/>
+    <!-- Diagonal braces -->
+    <line x1="0" y1="0" x2="220" y2="330" stroke="#388E3C" stroke-width="12" stroke-linecap="round"/>
+    <line x1="320" y1="0" x2="100" y2="330" stroke="#388E3C" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- See-saw -->
+  <g transform="translate(3000,430)">
+    <!-- Base -->
+    <polygon points="140,-40 100,0 180,0" fill="#616161"/>
+    <circle cx="140" cy="-40" r="18" fill="#757575"/>
+    <!-- Beam -->
+    <rect x="10" y="-58" width="260" height="18" rx="9" fill="#FF8A65"/>
+    <!-- Handles -->
+    <rect x="24" y="-90" width="14" height="40" rx="7" fill="#FF5722"/>
+    <rect x="42" y="-90" width="14" height="40" rx="7" fill="#FF5722"/>
+    <rect x="220" y="-58" width="14" height="40" rx="7" fill="#FF5722"/>
+    <rect x="238" y="-58" width="14" height="40" rx="7" fill="#FF5722"/>
+    <!-- Seats -->
+    <rect x="8" y="-64" width="50" height="14" rx="7" fill="#FFA726"/>
+    <rect x="222" y="-56" width="50" height="14" rx="7" fill="#FFA726"/>
+  </g>
+
+  <!-- Balancing stepping stones -->
+  <g fill="#9E9E9E">
+    <circle cx="3400" cy="505" r="28" fill="#EF9A9A"/>
+    <circle cx="3460" cy="495" r="28" fill="#90CAF9"/>
+    <circle cx="3520" cy="505" r="28" fill="#A5D6A7"/>
+    <circle cx="3580" cy="495" r="28" fill="#FFCC80"/>
+    <circle cx="3640" cy="505" r="28" fill="#CE93D8"/>
+    <circle cx="3700" cy="495" r="28" fill="#80DEEA"/>
+  </g>
+
+  <!-- Small colorful balls scattered on grass -->
+  <circle cx="640" cy="520" r="22" fill="#FF5252"/>
+  <circle cx="648" cy="512" r="8" fill="white" opacity="0.4"/>
+  <circle cx="1050" cy="516" r="18" fill="#40C4FF"/>
+  <circle cx="1058" cy="509" r="6" fill="white" opacity="0.4"/>
+  <circle cx="2200" cy="518" r="20" fill="#69F0AE"/>
+  <circle cx="2208" cy="510" r="7" fill="white" opacity="0.4"/>
+  <circle cx="3250" cy="514" r="18" fill="#FF8A65"/>
+  <circle cx="3258" cy="507" r="6" fill="white" opacity="0.4"/>
+
+  <!-- Path to equipment -->
+  <path d="M 600 720 Q 620 580 650 500" fill="none" stroke="#D7CCC8" stroke-width="50" opacity="0.5"/>
+  <path d="M 1200 720 Q 1220 600 1250 500" fill="none" stroke="#D7CCC8" stroke-width="50" opacity="0.5"/>
+</svg>

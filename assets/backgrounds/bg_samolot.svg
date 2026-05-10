@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 720" width="3840" height="720">
+  <defs>
+    <linearGradient id="ceilG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CFD8DC"/>
+      <stop offset="100%" stop-color="#B0BEC5"/>
+    </linearGradient>
+    <linearGradient id="windowG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B3E5FC"/>
+      <stop offset="60%" stop-color="#E1F5FE"/>
+      <stop offset="100%" stop-color="#FAFAFA"/>
+    </linearGradient>
+    <linearGradient id="floorG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78909C"/>
+      <stop offset="100%" stop-color="#546E7A"/>
+    </linearGradient>
+    <pattern id="carpet" x="0" y="0" width="60" height="20" patternUnits="userSpaceOnUse">
+      <rect width="60" height="20" fill="#546E7A"/>
+      <rect x="5" y="4" width="50" height="12" rx="3" fill="#607D8B" opacity="0.6"/>
+    </pattern>
+    <linearGradient id="seatG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#90A4AE"/>
+      <stop offset="100%" stop-color="#607D8B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cabin ceiling/overhead bins area -->
+  <rect width="3840" height="120" fill="url(#ceilG)"/>
+
+  <!-- Overhead bins - continuous row -->
+  <g fill="#CFD8DC" stroke="#90A4AE" stroke-width="2">
+    <!-- Overhead luggage compartments -->
+    <rect x="0" y="10" width="200" height="90" rx="8" fill="#ECEFF1"/>
+    <rect x="10" y="18" width="180" height="74" rx="6" fill="#CFD8DC" stroke="#90A4AE" stroke-width="1.5"/>
+    <rect x="85" y="78" width="50" height="16" rx="8" fill="#B0BEC5"/>
+  </g>
+  <!-- Repeat bin pattern -->
+  <pattern id="binPat" x="0" y="0" width="210" height="100" patternUnits="userSpaceOnUse">
+    <rect x="5" y="10" width="200" height="85" rx="8" fill="#ECEFF1" stroke="#90A4AE" stroke-width="2"/>
+    <rect x="14" y="18" width="183" height="68" rx="6" fill="#CFD8DC" stroke="#B0BEC5" stroke-width="1.5"/>
+    <rect x="88" y="73" width="50" height="15" rx="7" fill="#B0BEC5"/>
+  </pattern>
+  <rect y="0" width="3840" height="100" fill="url(#binPat)"/>
+  
+  <!-- Aisle lighting strip -->
+  <rect y="100" width="3840" height="8" fill="#ECEFF1" opacity="0.8"/>
+
+  <!-- Walls of airplane interior -->
+  <rect y="108" width="3840" height="500" fill="#ECEFF1"/>
+  
+  <!-- Window row - left side (which we see from middle aisle view - windows on both sides visible here) -->
+  <!-- We'll show windows as oval airplane windows in the walls -->
+  
+  <!-- Left wall with windows -->
+  <rect y="108" width="160" height="500" fill="#E0E0E0"/>
+  <!-- Left windows -->
+  <g fill="url(#windowG)" stroke="#90A4AE" stroke-width="4">
+    <rect x="15" y="160" width="110" height="140" rx="55" fill="url(#windowG)" stroke="#78909C" stroke-width="5"/>
+    <rect x="15" y="350" width="110" height="140" rx="55" fill="url(#windowG)" stroke="#78909C" stroke-width="5"/>
+  </g>
+  <!-- Clouds outside left windows -->
+  <clipPath id="win1">
+    <rect x="15" y="160" width="110" height="140" rx="55"/>
+  </clipPath>
+  <g clip-path="url(#win1)">
+    <rect x="15" y="160" width="110" height="140" fill="#87CEEB"/>
+    <ellipse cx="60" cy="220" rx="40" ry="20" fill="white" opacity="0.8"/>
+    <ellipse cx="90" cy="240" rx="30" ry="16" fill="white" opacity="0.8"/>
+    <ellipse cx="40" cy="250" rx="28" ry="14" fill="white" opacity="0.7"/>
+    <rect x="15" y="270" width="110" height="30" fill="#E1F5FE" opacity="0.5"/>
+  </g>
+  <clipPath id="win2">
+    <rect x="15" y="350" width="110" height="140" rx="55"/>
+  </clipPath>
+  <g clip-path="url(#win2)">
+    <rect x="15" y="350" width="110" height="140" fill="#87CEEB"/>
+    <ellipse cx="55" cy="400" rx="38" ry="18" fill="white" opacity="0.8"/>
+    <ellipse cx="90" cy="420" rx="28" ry="14" fill="white" opacity="0.8"/>
+    <rect x="15" y="455" width="110" height="35" fill="#E1F5FE" opacity="0.5"/>
+  </g>
+
+  <!-- Right wall with windows -->
+  <rect x="3680" y="108" width="160" height="500" fill="#E0E0E0"/>
+  <g fill="url(#windowG)" stroke="#78909C" stroke-width="5">
+    <rect x="3715" y="160" width="110" height="140" rx="55"/>
+    <rect x="3715" y="350" width="110" height="140" rx="55"/>
+  </g>
+  <clipPath id="win3">
+    <rect x="3715" y="160" width="110" height="140" rx="55"/>
+  </clipPath>
+  <g clip-path="url(#win3)">
+    <rect x="3715" y="160" width="110" height="140" fill="#87CEEB"/>
+    <ellipse cx="3760" cy="210" rx="40" ry="20" fill="white" opacity="0.8"/>
+    <ellipse cx="3800" cy="235" rx="30" ry="15" fill="white" opacity="0.8"/>
+  </g>
+  <clipPath id="win4">
+    <rect x="3715" y="350" width="110" height="140" rx="55"/>
+  </clipPath>
+  <g clip-path="url(#win4)">
+    <rect x="3715" y="350" width="110" height="140" fill="#87CEEB"/>
+    <ellipse cx="3755" cy="395" rx="36" ry="18" fill="white" opacity="0.8"/>
+    <ellipse cx="3790" cy="418" rx="28" ry="14" fill="white" opacity="0.8"/>
+  </g>
+
+  <!-- Seat rows - 3+3 layout
+       Left section: 3 seats (cols A B C)
+       Aisle
+       Right section: 3 seats (cols D E F)
+       We'll draw ~14 rows -->
+  
+  <!-- Aisle carpet -->
+  <rect x="1760" y="108" width="320" height="500" fill="url(#carpet)"/>
+  <!-- Aisle side strips -->
+  <rect x="1760" y="108" width="14" height="500" fill="#80CBC4" opacity="0.9"/>
+  <rect x="2066" y="108" width="14" height="500" fill="#80CBC4" opacity="0.9"/>
+
+  <!-- Seat row template:
+       Left block: x=160 to 1760 (1600px for seats) 
+       Right block: x=2080 to 3680 (1600px for seats)
+       We draw 14 rows spaced ~36px, each row: 3 seats -->
+  
+  <!-- Seat colors alternating for variety -->
+  <!-- Row 1 -->
+  <g transform="translate(160,115)">
+    <!-- Left triple seat -->
+    <rect x="0" y="0" width="520" height="70" rx="8" fill="#546E7A"/>
+    <rect x="10" y="6" width="150" height="58" rx="6" fill="#78909C"/>
+    <rect x="185" y="6" width="150" height="58" rx="6" fill="#78909C"/>
+    <rect x="360" y="6" width="150" height="58" rx="6" fill="#78909C"/>
+    <!-- Headrests -->
+    <rect x="40" y="2" width="90" height="18" rx="9" fill="#90A4AE"/>
+    <rect x="215" y="2" width="90" height="18" rx="9" fill="#90A4AE"/>
+    <rect x="390" y="2" width="90" height="18" rx="9" fill="#90A4AE"/>
+    <!-- Tray tables -->
+    <rect x="30" y="60" width="110" height="6" rx="3" fill="#B0BEC5"/>
+    <rect x="205" y="60" width="110" height="6" rx="3" fill="#B0BEC5"/>
+    <rect x="380" y="60" width="110" height="6" rx="3" fill="#B0BEC5"/>
+  </g>
+  <!-- Row 1 right block -->
+  <g transform="translate(2080,115)">
+    <rect x="0" y="0" width="520" height="70" rx="8" fill="#546E7A"/>
+    <rect x="10" y="6" width="150" height="58" rx="6" fill="#78909C"/>
+    <rect x="185" y="6" width="150" height="58" rx="6" fill="#78909C"/>
+    <rect x="360" y="6" width="150" height="58" rx="6" fill="#78909C"/>
+    <rect x="40" y="2" width="90" height="18" rx="9" fill="#90A4AE"/>
+    <rect x="215" y="2" width="90" height="18" rx="9" fill="#90A4AE"/>
+    <rect x="390" y="2" width="90" height="18" rx="9" fill="#90A4AE"/>
+  </g>
+
+  <!-- Repeat seat rows - using pattern -->
+  <pattern id="seatRowL" x="160" y="115" width="1600" height="80" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="520" height="70" rx="8" fill="#546E7A"/>
+    <rect x="10" y="6" width="150" height="58" rx="6" fill="url(#seatG)"/>
+    <rect x="185" y="6" width="150" height="58" rx="6" fill="url(#seatG)"/>
+    <rect x="360" y="6" width="150" height="58" rx="6" fill="url(#seatG)"/>
+    <rect x="40" y="2" width="90" height="18" rx="9" fill="#B0BEC5"/>
+    <rect x="215" y="2" width="90" height="18" rx="9" fill="#B0BEC5"/>
+    <rect x="390" y="2" width="90" height="18" rx="9" fill="#B0BEC5"/>
+  </pattern>
+  <rect x="160" y="115" width="1600" height="500" fill="url(#seatRowL)"/>
+  
+  <pattern id="seatRowR" x="2080" y="115" width="1600" height="80" patternUnits="userSpaceOnUse">
+    <rect x="2080" y="0" width="520" height="70" rx="8" fill="#546E7A"/>
+    <rect x="2090" y="6" width="150" height="58" rx="6" fill="url(#seatG)"/>
+    <rect x="2265" y="6" width="150" height="58" rx="6" fill="url(#seatG)"/>
+    <rect x="2440" y="6" width="150" height="58" rx="6" fill="url(#seatG)"/>
+    <rect x="2120" y="2" width="90" height="18" rx="9" fill="#B0BEC5"/>
+    <rect x="2295" y="2" width="90" height="18" rx="9" fill="#B0BEC5"/>
+    <rect x="2470" y="2" width="90" height="18" rx="9" fill="#B0BEC5"/>
+  </pattern>
+  <rect x="2080" y="115" width="1600" height="500" fill="url(#seatRowR)"/>
+
+  <!-- Aisle windows along walls (periodic oval windows every 320px starting at x=160) -->
+  <!-- Left wall windows -->
+  <g fill="url(#windowG)" stroke="#78909C" stroke-width="4">
+    <rect x="170" y="155" width="96" height="130" rx="48"/>
+    <rect x="490" y="155" width="96" height="130" rx="48"/>
+    <rect x="810" y="155" width="96" height="130" rx="48"/>
+    <rect x="1130" y="155" width="96" height="130" rx="48"/>
+    <rect x="1450" y="155" width="96" height="130" rx="48"/>
+    <rect x="170" y="340" width="96" height="130" rx="48"/>
+    <rect x="490" y="340" width="96" height="130" rx="48"/>
+    <rect x="810" y="340" width="96" height="130" rx="48"/>
+    <rect x="1130" y="340" width="96" height="130" rx="48"/>
+    <rect x="1450" y="340" width="96" height="130" rx="48"/>
+  </g>
+  <!-- Right wall windows -->
+  <g fill="url(#windowG)" stroke="#78909C" stroke-width="4">
+    <rect x="2600" y="155" width="96" height="130" rx="48"/>
+    <rect x="2920" y="155" width="96" height="130" rx="48"/>
+    <rect x="3240" y="155" width="96" height="130" rx="48"/>
+    <rect x="3560" y="155" width="96" height="130" rx="48"/>
+    <rect x="2600" y="340" width="96" height="130" rx="48"/>
+    <rect x="2920" y="340" width="96" height="130" rx="48"/>
+    <rect x="3240" y="340" width="96" height="130" rx="48"/>
+    <rect x="3560" y="340" width="96" height="130" rx="48"/>
+  </g>
+
+  <!-- Fill windows with sky and clouds -->
+  <clipPath id="clipW0"><rect x="170" y="155" width="96" height="130" rx="48"/></clipPath>
+  <g clip-path="url(#clipW0)">
+    <rect x="170" y="155" width="96" height="130" fill="#64B5F6"/>
+    <ellipse cx="218" cy="215" rx="34" ry="16" fill="white" opacity="0.85"/>
+    <ellipse cx="240" cy="230" rx="24" ry="12" fill="white" opacity="0.7"/>
+  </g>
+  <!-- (pattern repeats - just adding clouds to a few key windows for visual interest) -->
+  <clipPath id="clipW1"><rect x="810" y="155" width="96" height="130" rx="48"/></clipPath>
+  <g clip-path="url(#clipW1)">
+    <rect x="810" y="155" width="96" height="130" fill="#64B5F6"/>
+    <ellipse cx="845" cy="200" rx="30" ry="14" fill="white" opacity="0.85"/>
+    <ellipse cx="875" cy="220" rx="22" ry="10" fill="white" opacity="0.75"/>
+  </g>
+  <clipPath id="clipW2"><rect x="1450" y="155" width="96" height="130" rx="48"/></clipPath>
+  <g clip-path="url(#clipW2)">
+    <rect x="1450" y="155" width="96" height="130" fill="#64B5F6"/>
+    <ellipse cx="1490" cy="205" rx="32" ry="15" fill="white" opacity="0.85"/>
+    <ellipse cx="1520" cy="225" rx="22" ry="11" fill="white" opacity="0.75"/>
+  </g>
+  <clipPath id="clipW3"><rect x="2920" y="155" width="96" height="130" rx="48"/></clipPath>
+  <g clip-path="url(#clipW3)">
+    <rect x="2920" y="155" width="96" height="130" fill="#64B5F6"/>
+    <ellipse cx="2960" cy="210" rx="30" ry="14" fill="white" opacity="0.85"/>
+    <ellipse cx="2988" cy="228" rx="22" ry="11" fill="white" opacity="0.75"/>
+  </g>
+  <clipPath id="clipW4"><rect x="3560" y="155" width="96" height="130" rx="48"/></clipPath>
+  <g clip-path="url(#clipW4)">
+    <rect x="3560" y="155" width="96" height="130" fill="#64B5F6"/>
+    <ellipse cx="3600" cy="200" rx="34" ry="16" fill="white" opacity="0.85"/>
+    <ellipse cx="3628" cy="222" rx="24" ry="12" fill="white" opacity="0.75"/>
+  </g>
+
+  <!-- Floor -->
+  <rect y="608" width="3840" height="112" fill="url(#carpet)"/>
+  <!-- Aisle floor stripe -->
+  <rect x="1760" y="608" width="320" height="112" fill="#455A64"/>
+  <!-- Aisle lines -->
+  <pattern id="aisleArrow" x="0" y="0" width="80" height="35" patternUnits="userSpaceOnUse">
+    <rect width="80" height="35" fill="#455A64"/>
+    <path d="M20 4 L40 28 L60 4" fill="none" stroke="#607D8B" stroke-width="3"/>
+  </pattern>
+  <rect x="1780" y="615" width="280" height="98" fill="url(#aisleArrow)"/>
+
+  <!-- Service cart in aisle -->
+  <g transform="translate(1850,350)">
+    <rect x="0" y="0" width="100" height="160" rx="8" fill="#BDBDBD"/>
+    <rect x="8" y="8" width="84" height="50" rx="5" fill="#E0E0E0"/>
+    <rect x="8" y="66" width="84" height="50" rx="5" fill="#E0E0E0"/>
+    <rect x="8" y="124" width="84" height="28" rx="5" fill="#E0E0E0"/>
+    <circle cx="20" cy="165" r="10" fill="#757575"/>
+    <circle cx="80" cy="165" r="10" fill="#757575"/>
+    <rect x="-8" y="8" width="12" height="80" rx="6" fill="#9E9E9E"/>
+    <!-- Items on cart -->
+    <rect x="18" y="14" width="30" height="36" rx="5" fill="#EF5350"/>
+    <rect x="56" y="14" width="30" height="36" rx="5" fill="#42A5F5"/>
+    <rect x="18" y="72" width="64" height="36" rx="5" fill="#FFEE58"/>
+  </g>
+
+  <!-- Seat belt sign (ceiling) -->
+  <g transform="translate(1810,30)">
+    <rect x="0" y="0" width="220" height="50" rx="8" fill="#37474F"/>
+    <rect x="10" y="8" width="80" height="34" rx="5" fill="#FFEE58" opacity="0.9"/>
+    <rect x="100" y="8" width="110" height="34" rx="5" fill="#EF5350" opacity="0.9"/>
+    <line x1="50" y1="16" x2="50" y2="34" stroke="#37474F" stroke-width="3"/>
+    <text x="15" y="34" font-family="sans-serif" font-size="18" fill="#37474F">🔔</text>
+    <text x="108" y="34" font-family="sans-serif" font-size="14" fill="white">BELT</text>
+  </g>
+
+  <!-- Emergency exit signs -->
+  <g transform="translate(760,20)">
+    <rect x="0" y="0" width="140" height="40" rx="5" fill="#43A047"/>
+    <text x="12" y="28" font-family="sans-serif" font-size="16" fill="white" font-weight="bold">EXIT →</text>
+  </g>
+  <g transform="translate(2940,20)">
+    <rect x="0" y="0" width="140" height="40" rx="5" fill="#43A047"/>
+    <text x="12" y="28" font-family="sans-serif" font-size="16" fill="white" font-weight="bold">EXIT →</text>
+  </g>
+</svg>

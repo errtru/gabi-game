@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Tail fin -->
+  <polygon points="112,56 128,36 128,80" fill="#546E7A" stroke="#37474F" stroke-width="1.5"/>
+  <!-- Body -->
+  <ellipse cx="58" cy="58" rx="58" ry="34" fill="#78909C" stroke="#546E7A" stroke-width="2"/>
+  <!-- Belly (lighter) -->
+  <ellipse cx="52" cy="62" rx="42" ry="20" fill="#F5F5F5"/>
+  <!-- Dorsal fin -->
+  <polygon points="36,24 56,24 46,46" fill="#546E7A" stroke="#37474F" stroke-width="1.5"/>
+  <!-- Pectoral fins -->
+  <ellipse cx="28" cy="72" rx="14" ry="8" fill="#546E7A" transform="rotate(20,28,72)" stroke="#37474F" stroke-width="1.5"/>
+  <ellipse cx="62" cy="84" rx="14" ry="8" fill="#546E7A" transform="rotate(-15,62,84)" stroke="#37474F" stroke-width="1.5"/>
+  <!-- Eye -->
+  <circle cx="14" cy="52" r="11" fill="white" stroke="#37474F" stroke-width="1.5"/>
+  <circle cx="14" cy="52" r="7" fill="#1a1a1a"/>
+  <circle cx="16" cy="50" r="2.5" fill="white"/>
+  <!-- Gills -->
+  <path d="M 26 42 Q 28 58 26 74" stroke="#546E7A" stroke-width="2" fill="none"/>
+  <path d="M 32 40 Q 34 58 32 76" stroke="#546E7A" stroke-width="2" fill="none"/>
+  <!-- Mouth -->
+  <path d="M 4 60 Q 10 68 4 76" stroke="#37474F" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Teeth -->
+  <rect x="5" y="60" width="5" height="6" rx="1" fill="white"/>
+  <rect x="5" y="68" width="5" height="6" rx="1" fill="white"/>
+</svg>

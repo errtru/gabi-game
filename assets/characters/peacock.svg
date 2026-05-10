@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Shadow -->
+  <ellipse cx="52" cy="124" rx="38" ry="4" fill="#00000020"/>
+  <!-- Train of feathers (peacock!) -->
+  <!-- Outer feathers -->
+  <ellipse cx="96" cy="40" rx="8" ry="40" fill="#00897B" transform="rotate(30,96,40)"/>
+  <ellipse cx="108" cy="60" rx="8" ry="40" fill="#00897B" transform="rotate(50,108,60)"/>
+  <ellipse cx="112" cy="84" rx="8" ry="38" fill="#00897B" transform="rotate(70,112,84)"/>
+  <ellipse cx="108" cy="104" rx="8" ry="36" fill="#00897B" transform="rotate(100,108,104)"/>
+  <ellipse cx="88" cy="26" rx="8" ry="38" fill="#00897B" transform="rotate(15,88,26)"/>
+  <!-- Eye spots on feathers -->
+  <circle cx="112" cy="24" r="8" fill="#1565C0"/>
+  <circle cx="112" cy="24" r="5" fill="#0D47A1"/>
+  <circle cx="112" cy="24" r="2.5" fill="#FFD600"/>
+  <circle cx="122" cy="50" r="7" fill="#1565C0"/>
+  <circle cx="122" cy="50" r="4.5" fill="#0D47A1"/>
+  <circle cx="122" cy="50" r="2" fill="#FFD600"/>
+  <circle cx="124" cy="78" r="7" fill="#1565C0"/>
+  <circle cx="124" cy="78" r="4.5" fill="#0D47A1"/>
+  <circle cx="124" cy="78" r="2" fill="#FFD600"/>
+  <circle cx="116" cy="104" r="6" fill="#1565C0"/>
+  <circle cx="116" cy="104" r="4" fill="#0D47A1"/>
+  <circle cx="116" cy="104" r="2" fill="#FFD600"/>
+  <!-- Body -->
+  <ellipse cx="52" cy="88" rx="34" ry="26" fill="#00695C" stroke="#004D40" stroke-width="2"/>
+  <!-- Belly (blue) -->
+  <ellipse cx="48" cy="88" rx="20" ry="16" fill="#1565C0"/>
+  <!-- Neck -->
+  <rect x="38" y="48" width="24" height="34" rx="12" fill="#00897B" stroke="#004D40" stroke-width="2"/>
+  <!-- Head -->
+  <ellipse cx="50" cy="36" rx="20" ry="18" fill="#00897B" stroke="#004D40" stroke-width="2"/>
+  <!-- Crest (fan on head) -->
+  <line x1="44" y1="18" x2="40" y2="4" stroke="#00695C" stroke-width="2"/>
+  <circle cx="40" cy="4" r="4" fill="#FFD600"/>
+  <line x1="50" y1="18" x2="50" y2="2" stroke="#00695C" stroke-width="2"/>
+  <circle cx="50" cy="2" r="4" fill="#FFD600"/>
+  <line x1="56" y1="18" x2="60" y2="4" stroke="#00695C" stroke-width="2"/>
+  <circle cx="60" cy="4" r="4" fill="#FFD600"/>
+  <!-- Eye -->
+  <circle cx="58" cy="30" r="8" fill="white" stroke="#004D40" stroke-width="1.5"/>
+  <circle cx="59" cy="30" r="5" fill="#1a1a1a"/>
+  <circle cx="61" cy="28" r="2" fill="white"/>
+  <!-- Beak -->
+  <polygon points="30,34 30,42 44,38" fill="#FF8F00" stroke="#E65100" stroke-width="1.5"/>
+  <!-- Legs -->
+  <rect x="38" y="108" width="8" height="20" rx="4" fill="#FF8F00"/>
+  <rect x="58" y="108" width="8" height="20" rx="4" fill="#FF8F00"/>
+</svg>

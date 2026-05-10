@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Shadow -->
+  <ellipse cx="64" cy="124" rx="40" ry="5" fill="#00000025"/>
+  <!-- Body -->
+  <ellipse cx="64" cy="82" rx="44" ry="30" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <!-- Shell pattern lines -->
+  <path d="M 20 82 Q 64 66 108 82" stroke="#B71C1C" stroke-width="1.5" fill="none"/>
+  <path d="M 24 90 Q 64 76 104 90" stroke="#B71C1C" stroke-width="1.5" fill="none"/>
+  <!-- Left claw -->
+  <ellipse cx="14" cy="72" rx="18" ry="12" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <circle cx="4" cy="62" r="7" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <circle cx="8" cy="56" r="6" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <!-- Right claw -->
+  <ellipse cx="114" cy="72" rx="18" ry="12" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <circle cx="124" cy="62" r="7" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <circle cx="120" cy="56" r="6" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <!-- Head -->
+  <ellipse cx="64" cy="62" rx="28" ry="22" fill="#E53935" stroke="#B71C1C" stroke-width="2"/>
+  <!-- Eyes on stalks -->
+  <line x1="50" y1="48" x2="42" y2="34" stroke="#B71C1C" stroke-width="3"/>
+  <circle cx="40" cy="30" r="10" fill="white" stroke="#B71C1C" stroke-width="2"/>
+  <circle cx="41" cy="30" r="6" fill="#1a1a1a"/>
+  <circle cx="43" cy="28" r="2" fill="white"/>
+  <line x1="78" y1="48" x2="86" y2="34" stroke="#B71C1C" stroke-width="3"/>
+  <circle cx="88" cy="30" r="10" fill="white" stroke="#B71C1C" stroke-width="2"/>
+  <circle cx="89" cy="30" r="6" fill="#1a1a1a"/>
+  <circle cx="91" cy="28" r="2" fill="white"/>
+  <!-- Mouth/mandibles -->
+  <path d="M 50 70 Q 64 78 78 70" stroke="#B71C1C" stroke-width="2" fill="none"/>
+  <!-- 6 small legs -->
+  <rect x="28" y="98" width="8" height="16" rx="4" fill="#C62828" transform="rotate(-10,28,98)"/>
+  <rect x="44" y="100" width="8" height="16" rx="4" fill="#C62828"/>
+  <rect x="76" y="100" width="8" height="16" rx="4" fill="#C62828"/>
+  <rect x="92" y="98" width="8" height="16" rx="4" fill="#C62828" transform="rotate(10,92,98)"/>
+</svg>

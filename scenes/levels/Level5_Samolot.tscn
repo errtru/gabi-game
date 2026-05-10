@@ -1,4 +1,4 @@
-﻿[gd_scene load_steps=2 format=3 uid="uid://level5"]
+[gd_scene load_steps=2 format=3 uid="uid://level5"]
 
 [ext_resource type="Script" path="res://scripts/Level5_Samolot.gd" id="1"]
 

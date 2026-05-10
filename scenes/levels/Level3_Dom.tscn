@@ -1,4 +1,4 @@
-﻿[gd_scene load_steps=2 format=3 uid="uid://level3"]
+[gd_scene load_steps=2 format=3 uid="uid://level3"]
 
 [ext_resource type="Script" path="res://scripts/Level3_Dom.gd" id="1"]
 

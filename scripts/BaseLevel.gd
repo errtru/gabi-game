@@ -6,6 +6,7 @@ extends Node2D
 var level_name_text: String = "Poziom"
 var scene_width: float = 3840.0
 var bg_color: Color = Color(0.53, 0.81, 0.98, 1)
+var bg_texture_path: String = ""
 
 # --- Stan ---
 var _won: bool = false
@@ -29,6 +30,18 @@ func _ready() -> void:
 	$UI/WinPopup/VBox/NextButton.pressed.connect(_on_next_pressed)
 	$UI/HBox/MenuButton.pressed.connect(_on_menu_pressed)
 
+	if bg_texture_path != "":
+		var bg_tex = load(bg_texture_path)
+		if bg_tex:
+			$Background.hide()
+			var bg_sprite := Sprite2D.new()
+			bg_sprite.name = "BackgroundSprite"
+			bg_sprite.texture = bg_tex
+			bg_sprite.position = Vector2(scene_width / 2.0, 360.0)
+			bg_sprite.z_index = -1
+			add_child(bg_sprite)
+			move_child(bg_sprite, 0)
+
 	_spawn_level()
 
 ## Nadpisz w pod-klasie i zwróć tablicę słowników zwierząt
@@ -42,6 +55,7 @@ func _spawn_level() -> void:
 func _spawn(data: Dictionary) -> void:
 	var container := Node2D.new()
 	container.position = data["pos"]
+	var sprite_path: String = data.get("sprite", "")
 
 	if data.get("is_capybara", false):
 		var area := Area2D.new()
@@ -54,21 +68,33 @@ func _spawn(data: Dictionary) -> void:
 		shape.shape = rect
 		area.add_child(shape)
 
-		var lbl := Label.new()
-		lbl.text = "🦫"
-		lbl.position = Vector2(-32, -48)
-		lbl.theme_override_font_sizes["font_size"] = 68
-		area.add_child(lbl)
+		if sprite_path != "":
+			var spr := Sprite2D.new()
+			spr.texture = load(sprite_path)
+			spr.scale = Vector2(0.75, 0.75)
+			area.add_child(spr)
+		else:
+			var lbl := Label.new()
+			lbl.text = data.get("emoji", "🦫")
+			lbl.position = Vector2(-32, -48)
+			lbl.theme_override_font_sizes["font_size"] = 68
+			area.add_child(lbl)
 
 		# Sygnał — musi być dostępny PO _ready Capybara.gd
 		area.ready.connect(func(): area.found.connect(_on_capybara_found))
 		container.add_child(area)
 	else:
-		var lbl := Label.new()
-		lbl.text = data.get("emoji", "🐾")
-		lbl.position = Vector2(-32, -48)
-		lbl.theme_override_font_sizes["font_size"] = 64
-		container.add_child(lbl)
+		if sprite_path != "":
+			var spr := Sprite2D.new()
+			spr.texture = load(sprite_path)
+			spr.scale = Vector2(0.7, 0.7)
+			container.add_child(spr)
+		else:
+			var lbl := Label.new()
+			lbl.text = data.get("emoji", "🐾")
+			lbl.position = Vector2(-32, -48)
+			lbl.theme_override_font_sizes["font_size"] = 64
+			container.add_child(lbl)
 
 	$Objects.add_child(container)
 
